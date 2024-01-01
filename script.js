@@ -1,0 +1,14 @@
+jQuery(document).ready(function($){
+   $('#icon').click(function(){
+       $('body').toggleClass('active');
+   });
+   $('#mobile-icon').click(function(){
+    $('body').toggleClass('active');
+});
+   $('#menu').click(function(){
+       $('.nav').removeClass('active');
+   });
+   $('#close').click(function(){
+       $('.nav').addClass('active');
+   });
+});
